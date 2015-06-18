@@ -87,7 +87,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	float color =0;
 	while (!glfwWindowShouldClose(window)){
 		glUniform1f(colorhandle, color);
-		color+=0.0001;
+		color+=0.0002;
 		if(color>1.0)color = 0;
 
 		glClear( GL_COLOR_BUFFER_BIT );
